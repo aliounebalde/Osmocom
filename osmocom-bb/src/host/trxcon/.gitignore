@@ -1,0 +1,34 @@
+# autoreconf by-products
+*.in
+
+aclocal.m4
+autom4te.cache/
+configure
+depcomp
+install-sh
+missing
+compile
+
+# libtool by-products
+ltmain.sh
+libtool
+m4/*.m4
+
+# configure by-products
+.deps/
+Makefile
+
+config.status
+version.h
+
+# build by-products
+*.o
+*.lo
+*.a
+*.la
+
+/src/trxcon
+
+# various
+.version
+.tarball-version
